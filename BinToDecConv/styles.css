@@ -1,0 +1,36 @@
+body {
+    background: #EFEEEE;
+}
+
+.mvar {
+    color: #000000;
+    width: 21.5%;
+}
+
+.heading {
+    color: rgba(0, 0, 0, 0.884);
+    margin-top: 8rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.alert {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgba(255, 0, 0, 0.671);
+    margin-bottom: 1.5rem;
+}
+
+.fbutton {
+    width: 7%;
+}
+
+.fbutton2 {
+    width: 14.2%;
+}
+
+.calculate {
+    width: 21.5%;
+}

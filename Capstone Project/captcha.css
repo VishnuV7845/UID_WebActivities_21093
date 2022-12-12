@@ -1,0 +1,32 @@
+#image{
+	width: 100px;
+	padding: 10px;
+	font-weight: 400;
+	height: 40px;
+	user-select: none;
+	text-decoration:line-through;
+	font-style: italic;
+	font-size: x-large;
+	border: 2px solid;
+	
+}
+#user-input{
+	width:auto;
+	padding: 10px;
+	padding-bottom: 0px;
+	height: 40px;
+}
+
+.inline{
+	display:inline-block;
+}
+
+#btn{
+	color: white;
+	background-color: violet;
+}
+
+#btn:hover{
+    background: blueviolet;
+    transition: all 0.5s ease;
+}
