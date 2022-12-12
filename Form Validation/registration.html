@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Amrita Cyber Nation Registration</title>
+</head>
+<body>
+    <p style="float:right;color:white;padding-top:15px;">Vishnu Vignesh<br>CH.EN.U4CYS21093<br><br><a href="../activity.html" style="text-align: left; color:white;padding-top:15px; text-decoration: none">Activities</a></p>
+    <div class="container">
+        <form name="myform" method="post" action="../activity.html" onsubmit="return validateform()">
+            <h1 align="center">Amrita Vishwa Vidyapeetham</h1>
+            <h2 align="center">Amrita Cyber Nation</h2>
+            <hr>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your name here"><br><br>
+            <label for="email">Email address:</label><br>
+            <input type="text" id="email" name="email" placeholder="Your Email here"><br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Password"><br><br>
+            <label for="phone">Phone number:</label><br>
+            <input type="textbox" id="phone" name="Ph_Number" placeholder="Your phone here" ><br><br>
+            <label for="inst">Institution/Organization Name:</label><br>
+            <input type="text" id="inst" name="inst" size="30" maxlength="30" placeholder="Institution/Organization Name"><br><br>
+            <label for="desgination">Desgination (costs are per day):</label><br>
+            <select>
+                <option option hidden disabled selected value> -- select an option -- </option>
+                <option>Student (200/-)</option>
+                <option>Faculty (500/-)</option>
+                <option>Industry (1000/-)</option>
+            </select><br>
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br>
+            <p>Events:</p>
+            <input type="checkbox" id="option1" name="option1" value="Cyber Conclave">
+            <label for="option1">Cyber Conclave</label><br>
+            <input type="checkbox" id="option2" name="option2" value="Cyber Industry Meet">
+            <label for="option2">Cyber Industry Meet</label><br>
+            <input type="checkbox" id="option3" name="option3" value="National Amrita Cyber Tech Fest">
+            <label for="option3">National Amrita Cyber Tech Fest</label><br>
+            <input type="checkbox" id="option4" name="option4" value="Cyber Abhiyaan">
+            <label for="option4">Cyber Abhiyaan</label><br><br>
+		    <label for="idproof">ID Proof:</label><br>
+            <input type="file" id="idproof" name="idproof"><br><br>
+            <label for="comments">Further comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50">Further comments.</textarea><br>
+            <hr>
+            <input style="margin-left: 40%;" type="submit" value="register">
+            <input type="reset" value="reset">
+        </form>
+    </div>
+    <script src="valid.js"></script>
+</body>
+</html>

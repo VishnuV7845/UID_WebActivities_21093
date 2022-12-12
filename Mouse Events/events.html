@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Events</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,400;1,500&display=swap" rel="stylesheet">
+    <script src="events.js"></script>
+</head>
+<body>
+    <div class="topnav">
+        <p style="float: left; font-size: 10px;">Vishnu Vignesh<br>CH.EN.U4CYS21093<br></p>
+        <a href="events.html" class="active">Mouse Events</a>
+        <a href="regularexp.html">Regular Expressions</a>
+        <a href="../activity.html">Activities</a>
+    </div>
+    <div class="container">
+        <p>Given below is an example for an onclick event.</p>
+        <button onclick="clickexample()" id="mouseclick">Click on me!</button></p><br><br>
+        <p>Given below are examples for onmouseover and onmouseout events.</p>
+        <button onmouseover="mouseon()" onmouseout="mouseout()" id="mouseover">Hover your cursor over me!</button></p><br><br>
+        <p>Given below are example for onmouseup and onmousedown event.</p>
+        <button onmouseup="mouseup()" onmousedown="mousedown()" id="mousehold">Click and hold me!</button></p><br><br>
+        <p>Given below is an example for double mouse click event.</p>
+        <button ondblclick="dbclickexample()" id="mousedouble">Double click on me!</button></p><br>
+        <p id="dbclickex"></p>
+    </div>
+</body>
+</html>

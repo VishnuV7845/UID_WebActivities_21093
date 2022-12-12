@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    background-color: #bc0c4c;
+}
+
+.container {
+    margin: auto;
+    border: 3px;
+    padding: 10px;
+    width: 500px;
+    height: fit-content;
+    padding: 14px 16px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}

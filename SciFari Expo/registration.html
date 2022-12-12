@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register Today!</title>
+</head>
+<body>
+    <div class="topnav">
+        <a style="float: left; padding: 14px 16px;" href="home.html"><img src="avv.png" width="100px" height="16px" margin="auto"></a>
+        <a class="active" href="registration.html">Register</a>
+        <a href="events.html">Events</a>
+        <a href="home.html">Home</a>
+    </div>
+    <form style="width: fit-content; border: 15px; padding: 50px; background-color: gainsboro;  margin: auto; margin-top: 50px; margin-bottom: 50px; height: fit-content; align-items: center;">
+        <label for="name"><b>Name</b></label>
+        <br>
+        <input type="text" placeholder="Enter name" name="name" id="name" required>
+        <br><br>
+        <label for="email"><b>Email</b></label>
+        <br>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+        <br><br>
+        <label for="psw"><b>Password</b></label>
+        <br>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+        <br><br>
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <br>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+        <div>
+            <br>
+            <label><b>Select the events you would like to participate in: </b></label>
+            <br>
+            <input type="checkbox" id="hack" name="event" value="HACK">
+            <label for="hack">Hackathon</label>
+            <br>
+            <input type="checkbox" id="ctf" name="event" value="CTF">
+            <label for="ctf">Capture the Flag</label>
+            <br>
+            <input type="checkbox" id="dtc" name="event" value="DTC">
+            <label for="dtc">Debug the Code</label>
+            <br>
+            <input type="checkbox" id="expo" name="event" value="EXPO">
+            <label for="expo">Innovation Exhibition</label>
+        </div>
+        <br>
+        <hr>
+        <button style="float: right;" formaction="success.html" type="submit" class="register">Register</button>
+        <button style="float: left;" formaction="events.html" type="submit" class="cancel">Cancel</button>
+    </form>
+</body>
+</html>
